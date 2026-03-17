@@ -1,4 +1,4 @@
-package test_fonctionnel;
+package test_fonctionne;
 
 import personnages.Gaulois;
 import personnages.Romain;

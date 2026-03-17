@@ -37,12 +37,14 @@ public class Druide {
         if (contientPotion) {
             if (nomGaulois.equals("Obélix")) {
                 parler("Non, " + nomGaulois + " Non !... Et tu le sais très bien !");
-            } else {
+            } 
+            else {
                 int forcePotion = chaudron.prendreLouche();
                 gaulois.boirePotion(forcePotion);
                 parler("Tiens " + nomGaulois + " un peu de potion magique.");
             }
-        } else {
+        } 
+        else {
             parler("Désolé " + nomGaulois + " il n'y a plus une seule goutte de potion.");
         }
     }
