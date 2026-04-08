@@ -1,5 +1,8 @@
 package village_gaulois;
 
+import personnages.Gaulois;
+import personnages.Romain;
+
 public class Village {
 
     private String nom;

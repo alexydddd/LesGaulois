@@ -1,5 +1,7 @@
 package objets;
 
+import personnages.Romain;
+
 public enum Equipement {
 
     CASQUE("casque"),
